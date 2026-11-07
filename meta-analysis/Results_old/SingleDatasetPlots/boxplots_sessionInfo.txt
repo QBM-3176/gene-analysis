@@ -1,0 +1,65 @@
+R version 4.5.2 (2025-10-31)
+Platform: aarch64-apple-darwin20
+Running under: macOS 27.0.1
+
+Matrix products: default
+BLAS:   /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libBLAS.dylib 
+LAPACK: /Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/lib/libRlapack.dylib;  LAPACK version 3.12.1
+
+locale:
+[1] C.UTF-8/C.UTF-8/C.UTF-8/C/C.UTF-8/C.UTF-8
+
+time zone: Europe/Skopje
+tzcode source: internal
+
+attached base packages:
+[1] stats4    stats     graphics  grDevices utils     datasets  methods  
+[8] base     
+
+other attached packages:
+ [1] writexl_2.0.1         WGCNA_1.74            fastcluster_1.3.0    
+ [4] dynamicTreeCut_1.63-1 AnnotationDbi_1.72.0  IRanges_2.44.0       
+ [7] S4Vectors_0.48.1      Biobase_2.70.0        BiocGenerics_0.56.0  
+[10] generics_0.1.4        ggsignif_0.6.4        ggplot2_4.0.3        
+[13] data.table_1.18.2.1  
+
+loaded via a namespace (and not attached):
+ [1] tidyselect_1.2.1                dplyr_1.2.1                    
+ [3] farver_2.1.2                    blob_1.3.0                     
+ [5] Biostrings_2.78.0               S7_0.2.2                       
+ [7] fastmap_1.2.0                   digest_0.6.39                  
+ [9] rpart_4.1.27                    lifecycle_1.0.5                
+[11] hta20transcriptcluster.db_8.8.0 cluster_2.1.8.2                
+[13] survival_3.8-6                  KEGGREST_1.50.0                
+[15] RSQLite_2.4.6                   magrittr_2.0.5                 
+[17] compiler_4.5.2                  rlang_1.2.0                    
+[19] Hmisc_5.3-0                     tools_4.5.2                    
+[21] knitr_1.51                      labeling_0.4.3                 
+[23] htmlwidgets_1.6.4               bit_4.6.0                      
+[25] RColorBrewer_1.1-3              withr_3.0.2                    
+[27] foreign_0.8-91                  nnet_7.3-20                    
+[29] grid_4.5.2                      preprocessCore_1.72.0          
+[31] illuminaHumanv4.db_1.26.0       colorspace_2.1-3               
+[33] scales_1.4.0                    iterators_1.0.14               
+[35] cli_3.6.6                       rmarkdown_2.31                 
+[37] crayon_1.5.3                    rstudioapi_0.18.0              
+[39] httr_1.4.8                      DBI_1.3.0                      
+[41] cachem_1.1.0                    stringr_1.6.0                  
+[43] splines_4.5.2                   parallel_4.5.2                 
+[45] impute_1.84.0                   XVector_0.50.0                 
+[47] matrixStats_1.5.0               base64enc_0.1-6                
+[49] vctrs_0.7.3                     Matrix_1.7-5                   
+[51] bit64_4.8.0                     Formula_1.2-6                  
+[53] htmlTable_2.5.0                 foreach_1.5.2                  
+[55] glue_1.8.1                      codetools_0.2-20               
+[57] stringi_1.8.7                   gtable_0.3.6                   
+[59] hgug4112a.db_3.2.3              tibble_3.3.1                   
+[61] hgu133a2.db_3.13.0              pillar_1.11.1                  
+[63] htmltools_0.5.9                 Seqinfo_1.0.0                  
+[65] R6_2.6.1                        doParallel_1.0.17              
+[67] evaluate_1.0.5                  lattice_0.22-9                 
+[69] png_0.1-9                       backports_1.5.1                
+[71] pheatmap_1.0.13                 memoise_2.0.1                  
+[73] Rcpp_1.1.1-1.1                  gridExtra_2.3                  
+[75] checkmate_2.3.4                 org.Hs.eg.db_3.22.0            
+[77] xfun_0.57                       pkgconfig_2.0.3                

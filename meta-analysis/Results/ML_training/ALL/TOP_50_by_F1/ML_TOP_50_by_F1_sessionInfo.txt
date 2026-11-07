@@ -1,0 +1,10 @@
+python 3.11.9 (v3.11.9:de54cf5be3, Apr  2 2024, 07:12:50) [Clang 13.0.0 (clang-1300.0.29.30)]
+platform macOS-27.0.1-arm64-arm-64bit
+scikit-learn 1.4.2
+lightgbm 4.7.0
+pandas 2.1.4
+numpy 1.26.4
+RANDOM_STATE=42 MERGE_ERCB=True FAST=False TOP_FEATURES_FOR_THE_SECOND_RUN=50
+models (PyCaret 3.3.2 defaults): lr, knn, nb, dt, svm, rbfsvm, gpc, mlp, ridge, rf, qda, ada, gbc, lda, et, lightgbm, dummy
+input /Users/striki/Striki/Quant/quant.2/MetaAnalysis/Data/ML_input/all2.xlsx (850 samples, 50 genes + ['Compartment', 'Sex'], 10 LODO groups)
+feature selection: top 50 genes by importance of run 1's best model by F1 (Logistic Regression, fitted on all cohorts), plus all categorical columns; selection saw the left-out cohorts, so these LODO scores are optimistic

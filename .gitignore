@@ -1,0 +1,12 @@
+*.png
+*.jpg
+*.pptx
+.Rhistory
+.RData
+.DS_Store
+venv311
+venv*
+.venv
+.venv*
+*.gz
+*series_matrix.txt

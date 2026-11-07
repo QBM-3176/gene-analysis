@@ -1,0 +1,8 @@
+MetaAnalysis pipeline run — 2026-10-18 20:21:47
+R: R version 4.5.2 (2025-10-31)
+Steps requested: pooling
+
+step         script                      plan                             status              seconds
+pooling      pooling_strategy.R          §5 random-effects meta-analysis ok                      3.4
+
+Total: 3.5 s — all steps OK

@@ -1,0 +1,102 @@
+Ensemble MM ID, Gene name, Human Ensemble ID, Entrez ID
+ENSMUSG00000025075, Habp2, ENSG00000148702, 3026_at
+ENSMUSG00000058952, Cfi, ENSG00000205403, 3426_at
+ENSMUSG00000026365, Cfh, ENSG00000000971, 3075_at
+ENSMUSG00000058806, Col13a1, ENSG00000197467, 1305_at
+ENSMUSG00000100257, C4bpb/C4bp-ps1, ENSG00000123843,  725_at
+
+ENSMUSG00000026822, LCN2, ENSG00000148346, 3934_at
+ENSMUSG00000040405, HAVCR1, ENSG00000113249, 26762_at
+ENSMUSG00000046223, PLAUR, ENSG00000011422, 5329_at
+ENSMUSG00000030341 ,TNFRSF1A, ENSG00000067182, 7132_at
+ENSMUSG00000028599 ,TNFRSF1B, ENSG00000028137, 7133_at
+ENSMUSG00000032080 ,APOA4, ENSG00000110244, 337_at
+ENSMUSG00000015854 ,CD5L, ENSG00000073754, 922_at
+ENSMUSG00000020427 ,IGFBP3, ENSG00000146674, 3486_at
+
+
+
+RenoRisk genes:
+
+Human gene, Human Entrez ID,    Mouse gene, Mouse Ensembl ID
+HABP2,      3026,               Habp2,      ENSMUSG00000025075
+CFI,        3426,               Cfi,        ENSMUSG00000058952
+CFH,        3075,               Cfh,        ENSMUSG00000026365
+COL13A1,    1305,               Col13a1,    ENSMUSG00000058806
+C4BPB,      725,                C4bpb (pseudogene), N/A - pseudogene in mouse
+
+
+Competition:
+
+Biomarker,  Human gene, Human Entrez ID,    Mouse gene, Mouse Ensembl ID
+NGAL,       LCN2,       3934_at,               Lcn2,       ENSMUSG00000026822
+KIM-1,      HAVCR1,     26762_at,              Havcr1,     ENSMUSG00000040405
+suPAR,      PLAUR,      5329_at,               Plaur,      ENSMUSG00000046223
+TNFR-1,     TNFRSF1A,   7132_at,               Tnfrsf1a,   ENSMUSG00000030341
+TNFR-2,     TNFRSF1B,   7133,               Tnfrsf1b,   ENSMUSG00000028599
+ApoA4,      APOA4,      337,                Apoa4,      ENSMUSG00000032080
+CD5L,       CD5L,       922,                Cd5l,       ENSMUSG00000015854
+IGFBP3,     IGFBP3,     3486,               Igfbp3,     ENSMUSG00000020427
+EGF,        EGF,        1950,               Egf,        ENSMUSG00000028017
+FGFR4,      FGFR4,      2264,               Fgfr4,      ENSMUSG00000005320
+FGF23,      FGF23,      8074,               Fgfr4,      ENSMUSG00000000182
+NLRP3,      NLRP3,      114548,             Nlrp3,      ENSMUSG00000032691
+
+
+
+
+Habp2 Cfi Cfh Col13a1 C4bpb
+
+Finding gene names for proteins/biomarkers:
+https://www.ncbi.nlm.nih.gov/gene/NGAL
+
+
+https://www.ncbi.nlm.nih.gov/gene/?term=suPAR
+
+Biomarker (protein), Gene name
+NGAL, LCN2
+KIM-1, HAVCR1
+suPAR, PLAUR
+TNFR‑1, TNFRSF1A
+TNFR‑2, TNFRSF1B 
+ApoA4, APOA4
+CD5L, CD5L
+IGFBP3, IGFBP3
+EGF, EGF
+
+
+
+
+NGAL, KIM-1, suPAR, TNFR‑1, TNFR‑2, ApoA4, CD5L, IGFBP3
+
+Finding ID for name
+https://www.ensembl.org/Homo_sapiens/Search/Results?q=C4bpb;site=ensembl;facet_species=Human;page=1
+
+R interpreter:
+https://rdrr.io/snippets/
+code:
+library(org.Hs.eg.db)
+mapIds(org.Hs.eg.db, keys = "26762", column = "ENSEMBL", keytype = "ENTREZID")
+
+---------------------------------------
+
+# Gene name -> Entrez ID
+library(org.Hs.eg.db)
+# Install if necessary: BiocManager::install("org.Mm.eg.db")
+# library(org.Mm.eg.db)
+
+gene_symbols <- c("EGF")
+
+# Map symbols to Entrez IDs
+entrez_ids <- select(org.Hs.eg.db, 
+                     keys = gene_symbols, 
+                     columns = c("ENTREZID", "SYMBOL"), 
+                     keytype = "SYMBOL")
+
+print(entrez_ids)
+
+---------------------------------------
+
+3026_at, 3426_at, 3075_at, 1305_at,  725_at
+
+

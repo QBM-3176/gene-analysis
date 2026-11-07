@@ -1,0 +1,995 @@
+{
+ "E1": {
+  "RR": {
+   "per_cohort": [
+    {
+     "Cohort": "ERCB",
+     "n": 131,
+     "Controls": 42,
+     "Cases": 89,
+     "AUC": 0.61,
+     "Sens": 0.865,
+     "Spec": 0.19,
+     "PPV": 0.694,
+     "NPV": 0.4,
+     "Spec@Sens0.90": 0.143
+    },
+    {
+     "Cohort": "GSE108109",
+     "n": 111,
+     "Controls": 6,
+     "Cases": 105,
+     "AUC": 0.705,
+     "Sens": 1.0,
+     "Spec": 0.0,
+     "PPV": 0.946,
+     "NPV": NaN,
+     "Spec@Sens0.90": 0.167
+    },
+    {
+     "Cohort": "GSE116626",
+     "n": 81,
+     "Controls": 7,
+     "Cases": 74,
+     "AUC": 0.797,
+     "Sens": 1.0,
+     "Spec": 0.0,
+     "PPV": 0.914,
+     "NPV": NaN,
+     "Spec@Sens0.90": 0.286
+    },
+    {
+     "Cohort": "GSE121233",
+     "n": 10,
+     "Controls": 5,
+     "Cases": 5,
+     "AUC": 0.8,
+     "Sens": 1.0,
+     "Spec": 0.0,
+     "PPV": 0.5,
+     "NPV": NaN,
+     "Spec@Sens0.90": 0.6
+    },
+    {
+     "Cohort": "GSE129973",
+     "n": 40,
+     "Controls": 20,
+     "Cases": 20,
+     "AUC": 0.61,
+     "Sens": 1.0,
+     "Spec": 0.0,
+     "PPV": 0.5,
+     "NPV": NaN,
+     "Spec@Sens0.90": 0.25
+    },
+    {
+     "Cohort": "GSE200828",
+     "n": 153,
+     "Controls": 6,
+     "Cases": 147,
+     "AUC": 0.726,
+     "Sens": 0.986,
+     "Spec": 0.167,
+     "PPV": 0.967,
+     "NPV": 0.333,
+     "Spec@Sens0.90": 0.5
+    },
+    {
+     "Cohort": "GSE30122",
+     "n": 69,
+     "Controls": 50,
+     "Cases": 19,
+     "AUC": 0.514,
+     "Sens": 1.0,
+     "Spec": 0.0,
+     "PPV": 0.275,
+     "NPV": NaN,
+     "Spec@Sens0.90": 0.02
+    },
+    {
+     "Cohort": "GSE66494",
+     "n": 61,
+     "Controls": 8,
+     "Cases": 53,
+     "AUC": 0.491,
+     "Sens": 0.962,
+     "Spec": 0.0,
+     "PPV": 0.864,
+     "NPV": 0.0,
+     "Spec@Sens0.90": 0.0
+    },
+    {
+     "Cohort": "GSE96804",
+     "n": 61,
+     "Controls": 20,
+     "Cases": 41,
+     "AUC": 0.573,
+     "Sens": 1.0,
+     "Spec": 0.0,
+     "PPV": 0.672,
+     "NPV": NaN,
+     "Spec@Sens0.90": 0.15
+    },
+    {
+     "Cohort": "GSE99339-GPL19184",
+     "n": 133,
+     "Controls": 8,
+     "Cases": 125,
+     "AUC": 0.452,
+     "Sens": 0.92,
+     "Spec": 0.0,
+     "PPV": 0.935,
+     "NPV": 0.0,
+     "Spec@Sens0.90": 0.0
+    }
+   ],
+   "pooled": {
+    "TP": 652,
+    "FN": 26,
+    "TN": 9,
+    "FP": 163,
+    "Sens": 0.962,
+    "Spec": 0.052,
+    "PPV": 0.8,
+    "NPV": 0.257,
+    "meanAUC": 0.628,
+    "meanSens": 0.973,
+    "meanSpec": 0.036,
+    "meanSpec@Sens0.90": 0.212
+   }
+  },
+  "ALL": {
+   "per_cohort": [
+    {
+     "Cohort": "ERCB",
+     "n": 131,
+     "Controls": 42,
+     "Cases": 89,
+     "AUC": 0.957,
+     "Sens": 1.0,
+     "Spec": 0.31,
+     "PPV": 0.754,
+     "NPV": 1.0,
+     "Spec@Sens0.90": 0.786
+    },
+    {
+     "Cohort": "GSE108109",
+     "n": 111,
+     "Controls": 6,
+     "Cases": 105,
+     "AUC": 1.0,
+     "Sens": 1.0,
+     "Spec": 1.0,
+     "PPV": 1.0,
+     "NPV": 1.0,
+     "Spec@Sens0.90": 1.0
+    },
+    {
+     "Cohort": "GSE116626",
+     "n": 81,
+     "Controls": 7,
+     "Cases": 74,
+     "AUC": 0.832,
+     "Sens": 0.459,
+     "Spec": 0.857,
+     "PPV": 0.971,
+     "NPV": 0.13,
+     "Spec@Sens0.90": 0.857
+    },
+    {
+     "Cohort": "GSE121233",
+     "n": 10,
+     "Controls": 5,
+     "Cases": 5,
+     "AUC": 1.0,
+     "Sens": 1.0,
+     "Spec": 0.8,
+     "PPV": 0.833,
+     "NPV": 1.0,
+     "Spec@Sens0.90": 1.0
+    },
+    {
+     "Cohort": "GSE129973",
+     "n": 40,
+     "Controls": 20,
+     "Cases": 20,
+     "AUC": 1.0,
+     "Sens": 1.0,
+     "Spec": 1.0,
+     "PPV": 1.0,
+     "NPV": 1.0,
+     "Spec@Sens0.90": 1.0
+    },
+    {
+     "Cohort": "GSE200828",
+     "n": 153,
+     "Controls": 6,
+     "Cases": 147,
+     "AUC": 1.0,
+     "Sens": 1.0,
+     "Spec": 1.0,
+     "PPV": 1.0,
+     "NPV": 1.0,
+     "Spec@Sens0.90": 1.0
+    },
+    {
+     "Cohort": "GSE30122",
+     "n": 69,
+     "Controls": 50,
+     "Cases": 19,
+     "AUC": 0.857,
+     "Sens": 0.895,
+     "Spec": 0.56,
+     "PPV": 0.436,
+     "NPV": 0.933,
+     "Spec@Sens0.90": 0.46
+    },
+    {
+     "Cohort": "GSE66494",
+     "n": 61,
+     "Controls": 8,
+     "Cases": 53,
+     "AUC": 0.929,
+     "Sens": 1.0,
+     "Spec": 0.0,
+     "PPV": 0.869,
+     "NPV": NaN,
+     "Spec@Sens0.90": 0.75
+    },
+    {
+     "Cohort": "GSE96804",
+     "n": 61,
+     "Controls": 20,
+     "Cases": 41,
+     "AUC": 1.0,
+     "Sens": 0.902,
+     "Spec": 1.0,
+     "PPV": 1.0,
+     "NPV": 0.833,
+     "Spec@Sens0.90": 1.0
+    },
+    {
+     "Cohort": "GSE99339-GPL19184",
+     "n": 133,
+     "Controls": 8,
+     "Cases": 125,
+     "AUC": 0.959,
+     "Sens": 0.976,
+     "Spec": 0.625,
+     "PPV": 0.976,
+     "NPV": 0.625,
+     "Spec@Sens0.90": 0.875
+    }
+   ],
+   "pooled": {
+    "TP": 629,
+    "FN": 49,
+    "TN": 108,
+    "FP": 64,
+    "Sens": 0.928,
+    "Spec": 0.628,
+    "PPV": 0.908,
+    "NPV": 0.688,
+    "meanAUC": 0.953,
+    "meanSens": 0.923,
+    "meanSpec": 0.715,
+    "meanSpec@Sens0.90": 0.873
+   }
+  },
+  "TOP50": {
+   "per_cohort": [
+    {
+     "Cohort": "ERCB",
+     "n": 131,
+     "Controls": 42,
+     "Cases": 89,
+     "AUC": 0.971,
+     "Sens": 0.978,
+     "Spec": 0.738,
+     "PPV": 0.888,
+     "NPV": 0.939,
+     "Spec@Sens0.90": 0.905
+    },
+    {
+     "Cohort": "GSE108109",
+     "n": 111,
+     "Controls": 6,
+     "Cases": 105,
+     "AUC": 0.997,
+     "Sens": 0.981,
+     "Spec": 0.833,
+     "PPV": 0.99,
+     "NPV": 0.714,
+     "Spec@Sens0.90": 1.0
+    },
+    {
+     "Cohort": "GSE116626",
+     "n": 81,
+     "Controls": 7,
+     "Cases": 74,
+     "AUC": 0.896,
+     "Sens": 0.568,
+     "Spec": 0.857,
+     "PPV": 0.977,
+     "NPV": 0.158,
+     "Spec@Sens0.90": 0.857
+    },
+    {
+     "Cohort": "GSE121233",
+     "n": 10,
+     "Controls": 5,
+     "Cases": 5,
+     "AUC": 1.0,
+     "Sens": 1.0,
+     "Spec": 1.0,
+     "PPV": 1.0,
+     "NPV": 1.0,
+     "Spec@Sens0.90": 1.0
+    },
+    {
+     "Cohort": "GSE129973",
+     "n": 40,
+     "Controls": 20,
+     "Cases": 20,
+     "AUC": 1.0,
+     "Sens": 0.95,
+     "Spec": 1.0,
+     "PPV": 1.0,
+     "NPV": 0.952,
+     "Spec@Sens0.90": 1.0
+    },
+    {
+     "Cohort": "GSE200828",
+     "n": 153,
+     "Controls": 6,
+     "Cases": 147,
+     "AUC": 1.0,
+     "Sens": 1.0,
+     "Spec": 0.833,
+     "PPV": 0.993,
+     "NPV": 1.0,
+     "Spec@Sens0.90": 1.0
+    },
+    {
+     "Cohort": "GSE30122",
+     "n": 69,
+     "Controls": 50,
+     "Cases": 19,
+     "AUC": 0.862,
+     "Sens": 1.0,
+     "Spec": 0.2,
+     "PPV": 0.322,
+     "NPV": 1.0,
+     "Spec@Sens0.90": 0.64
+    },
+    {
+     "Cohort": "GSE66494",
+     "n": 61,
+     "Controls": 8,
+     "Cases": 53,
+     "AUC": 1.0,
+     "Sens": 1.0,
+     "Spec": 0.0,
+     "PPV": 0.869,
+     "NPV": NaN,
+     "Spec@Sens0.90": 1.0
+    },
+    {
+     "Cohort": "GSE96804",
+     "n": 61,
+     "Controls": 20,
+     "Cases": 41,
+     "AUC": 0.995,
+     "Sens": 1.0,
+     "Spec": 0.85,
+     "PPV": 0.932,
+     "NPV": 1.0,
+     "Spec@Sens0.90": 1.0
+    },
+    {
+     "Cohort": "GSE99339-GPL19184",
+     "n": 133,
+     "Controls": 8,
+     "Cases": 125,
+     "AUC": 0.975,
+     "Sens": 0.944,
+     "Spec": 0.75,
+     "PPV": 0.983,
+     "NPV": 0.462,
+     "Spec@Sens0.90": 1.0
+    }
+   ],
+   "pooled": {
+    "TP": 634,
+    "FN": 44,
+    "TN": 105,
+    "FP": 67,
+    "Sens": 0.935,
+    "Spec": 0.61,
+    "PPV": 0.904,
+    "NPV": 0.705,
+    "meanAUC": 0.97,
+    "meanSens": 0.942,
+    "meanSpec": 0.706,
+    "meanSpec@Sens0.90": 0.94
+   }
+  }
+ },
+ "E2_indication": [
+  {
+   "Indication": "ANCA vasculitis",
+   "n": 58,
+   "RR": 0.931,
+   "ALL": 1.0,
+   "TOP50": 0.983
+  },
+  {
+   "Indication": "CKD (unspecified)",
+   "n": 53,
+   "RR": 0.962,
+   "ALL": 1.0,
+   "TOP50": 1.0
+  },
+  {
+   "Indication": "DKD",
+   "n": 81,
+   "RR": 0.988,
+   "ALL": 0.926,
+   "TOP50": 0.975
+  },
+  {
+   "Indication": "FSGS",
+   "n": 111,
+   "RR": 0.982,
+   "ALL": 1.0,
+   "TOP50": 0.973
+  },
+  {
+   "Indication": "FSGS/MCD",
+   "n": 10,
+   "RR": 0.8,
+   "ALL": 1.0,
+   "TOP50": 1.0
+  },
+  {
+   "Indication": "Hypertensive nephropathy",
+   "n": 18,
+   "RR": 0.833,
+   "ALL": 0.889,
+   "TOP50": 0.778
+  },
+  {
+   "Indication": "IgAN",
+   "n": 78,
+   "RR": 0.962,
+   "ALL": 0.615,
+   "TOP50": 0.705
+  },
+  {
+   "Indication": "Lupus nephritis",
+   "n": 30,
+   "RR": 0.967,
+   "ALL": 1.0,
+   "TOP50": 1.0
+  },
+  {
+   "Indication": "MCD",
+   "n": 52,
+   "RR": 0.942,
+   "ALL": 1.0,
+   "TOP50": 0.962
+  },
+  {
+   "Indication": "MN",
+   "n": 116,
+   "RR": 0.974,
+   "ALL": 1.0,
+   "TOP50": 1.0
+  },
+  {
+   "Indication": "Other GN",
+   "n": 68,
+   "RR": 0.985,
+   "ALL": 0.853,
+   "TOP50": 0.868
+  },
+  {
+   "Indication": "Thin membrane disease",
+   "n": 3,
+   "RR": 0.667,
+   "ALL": 0.667,
+   "TOP50": 1.0
+  }
+ ],
+ "E2_controls": [
+  {
+   "Control source": "Living donor + tumour nephrectomy",
+   "n": 42,
+   "RR": 0.19,
+   "ALL": 0.31,
+   "TOP50": 0.738
+  },
+  {
+   "Control source": "Living donor",
+   "n": 19,
+   "RR": 0.053,
+   "ALL": 0.947,
+   "TOP50": 0.842
+  },
+  {
+   "Control source": "Tumour nephrectomy",
+   "n": 53,
+   "RR": 0.0,
+   "ALL": 0.925,
+   "TOP50": 0.906
+  },
+  {
+   "Control source": "Not stated",
+   "n": 50,
+   "RR": 0.0,
+   "ALL": 0.56,
+   "TOP50": 0.2
+  },
+  {
+   "Control source": "Reference RNA",
+   "n": 8,
+   "RR": 0.0,
+   "ALL": 0.0,
+   "TOP50": 0.0
+  }
+ ],
+ "E2_compartment": [
+  {
+   "Compartment": "Glomerular",
+   "n": 614,
+   "Controls": 112,
+   "Cases": 502,
+   "RR sens": 0.976,
+   "ALL sens": 0.982,
+   "TOP50 sens": 0.98,
+   "RR spec": 0.009,
+   "ALL spec": 0.786,
+   "TOP50 spec": 0.652
+  },
+  {
+   "Compartment": "Tubulointerstitial",
+   "n": 94,
+   "Controls": 45,
+   "Cases": 49,
+   "RR sens": 0.755,
+   "ALL sens": 1.0,
+   "TOP50 sens": 0.959,
+   "RR spec": 0.178,
+   "ALL spec": 0.311,
+   "TOP50 spec": 0.578
+  },
+  {
+   "Compartment": "Whole biopsy",
+   "n": 142,
+   "Controls": 15,
+   "Cases": 127,
+   "RR sens": 0.984,
+   "ALL sens": 0.685,
+   "TOP50 sens": 0.748,
+   "RR spec": 0.0,
+   "ALL spec": 0.4,
+   "TOP50 spec": 0.4
+  }
+ ],
+ "E3": [
+  {
+   "Features": "Compartment + Sex only (no genes)",
+   "AUC": 0.552,
+   "Sens": 0.942,
+   "Spec": 0.122
+  },
+  {
+   "Features": "5 RenoRisk genes only",
+   "AUC": 0.624,
+   "Sens": 0.867,
+   "Spec": 0.087
+  },
+  {
+   "Features": "5 RenoRisk genes + Compartment + Sex (RR notebook)",
+   "AUC": 0.628,
+   "Sens": 0.962,
+   "Spec": 0.052
+  },
+  {
+   "Features": "All genes without Compartment, Sex",
+   "AUC": 0.952,
+   "Sens": 0.928,
+   "Spec": 0.657
+  }
+ ],
+ "E4_g": {
+  "C4BPA": {
+   "GSE104948": 0.03,
+   "GSE104954": -0.05,
+   "GSE108109": 0.0,
+   "GSE116626": -0.19,
+   "GSE121233": -0.44,
+   "GSE129973": 0.14,
+   "GSE200828": -0.09,
+   "GSE30122": 1.06,
+   "GSE66494": 0.25,
+   "GSE96804": -0.06,
+   "GSE99339": -0.07
+  },
+  "COL13A1": {
+   "GSE104948": 1.14,
+   "GSE104954": 0.18,
+   "GSE108109": 0.73,
+   "GSE116626": 0.64,
+   "GSE121233": -0.17,
+   "GSE129973": 0.03,
+   "GSE200828": 0.63,
+   "GSE30122": 0.68,
+   "GSE66494": 0.58,
+   "GSE96804": 1.71,
+   "GSE99339": 0.05
+  },
+  "HABP2": {
+   "GSE104948": 0.12,
+   "GSE104954": 0.36,
+   "GSE108109": -0.03,
+   "GSE116626": 0.51,
+   "GSE121233": 1.02,
+   "GSE129973": -0.02,
+   "GSE200828": 0.06,
+   "GSE30122": 1.01,
+   "GSE66494": 0.94,
+   "GSE96804": -0.38,
+   "GSE99339": -0.9
+  },
+  "CFH": {
+   "GSE104948": 0.95,
+   "GSE104954": 0.53,
+   "GSE108109": -0.73,
+   "GSE116626": 0.3,
+   "GSE121233": 0.79,
+   "GSE129973": 0.88,
+   "GSE200828": -0.76,
+   "GSE30122": 0.69,
+   "GSE66494": 0.65,
+   "GSE96804": 0.97,
+   "GSE99339": -0.12
+  },
+  "CFI": {
+   "GSE104948": 0.15,
+   "GSE104954": 0.8,
+   "GSE108109": -1.37,
+   "GSE116626": 0.43,
+   "GSE121233": 1.01,
+   "GSE129973": 0.53,
+   "GSE200828": -1.28,
+   "GSE30122": 0.71,
+   "GSE66494": 1.03,
+   "GSE96804": 0.09,
+   "GSE99339": -0.43
+  },
+  "FOS": {
+   "GSE104948": -0.67,
+   "GSE104954": -2.3,
+   "GSE108109": -1.09,
+   "GSE116626": -1.88,
+   "GSE121233": -1.67,
+   "GSE129973": -1.94,
+   "GSE200828": -1.16,
+   "GSE30122": -0.3,
+   "GSE66494": -2.44,
+   "GSE96804": -4.22,
+   "GSE99339": -1.5
+  },
+  "EGR1": {
+   "GSE104948": -0.94,
+   "GSE104954": -2.16,
+   "GSE108109": -1.19,
+   "GSE116626": -2.1,
+   "GSE121233": -1.1,
+   "GSE129973": -1.53,
+   "GSE200828": -1.39,
+   "GSE30122": -0.37,
+   "GSE66494": -0.21,
+   "GSE96804": -1.77,
+   "GSE99339": -1.97
+  },
+  "DUSP1": {
+   "GSE104948": -1.62,
+   "GSE104954": -3.91,
+   "GSE108109": -2.06,
+   "GSE116626": -1.74,
+   "GSE121233": -1.97,
+   "GSE129973": -2.32,
+   "GSE200828": -1.94,
+   "GSE30122": -1.11,
+   "GSE66494": -2.01,
+   "GSE96804": -4.17,
+   "GSE99339": -1.17
+  },
+  "ATF3": {
+   "GSE104948": -1.16,
+   "GSE104954": -1.38,
+   "GSE108109": -0.98,
+   "GSE116626": -2.42,
+   "GSE121233": -1.09,
+   "GSE129973": -1.18,
+   "GSE200828": -1.0,
+   "GSE30122": -0.48,
+   "GSE66494": -2.06,
+   "GSE96804": -1.5,
+   "GSE99339": -3.06
+  },
+  "PDK4": {
+   "GSE104948": -2.63,
+   "GSE104954": -3.1,
+   "GSE108109": -2.64,
+   "GSE116626": -1.08,
+   "GSE121233": -3.23,
+   "GSE129973": -1.84,
+   "GSE200828": -2.55,
+   "GSE30122": 0.69,
+   "GSE66494": 0.74,
+   "GSE96804": -3.29,
+   "GSE99339": -0.12
+  },
+  "PCK1": {
+   "GSE104948": -1.64,
+   "GSE104954": -1.16,
+   "GSE108109": -2.24,
+   "GSE116626": -0.53,
+   "GSE121233": -2.21,
+   "GSE129973": -1.78,
+   "GSE200828": -1.99,
+   "GSE30122": -0.45,
+   "GSE66494": -0.22,
+   "GSE96804": -1.61,
+   "GSE99339": -1.27
+  },
+  "G6PC1": {
+   "GSE104948": -2.0,
+   "GSE104954": -1.72,
+   "GSE108109": -1.87,
+   "GSE116626": -0.13,
+   "GSE121233": -8.52,
+   "GSE129973": -4.31,
+   "GSE200828": -1.68,
+   "GSE30122": -1.05,
+   "GSE66494": -0.51,
+   "GSE96804": -2.85,
+   "GSE99339": -0.93
+  },
+  "FN1": {
+   "GSE104948": 1.53,
+   "GSE104954": 1.03,
+   "GSE108109": 1.18,
+   "GSE116626": 0.04,
+   "GSE121233": 2.24,
+   "GSE129973": 2.0,
+   "GSE200828": 0.87,
+   "GSE30122": 1.52,
+   "GSE66494": 0.64,
+   "GSE96804": 1.86,
+   "GSE99339": 0.79
+  },
+  "LUM": {
+   "GSE104948": 0.42,
+   "GSE104954": 0.83,
+   "GSE108109": -0.53,
+   "GSE116626": 1.14,
+   "GSE121233": 1.88,
+   "GSE129973": 2.39,
+   "GSE200828": -0.65,
+   "GSE30122": 1.56,
+   "GSE66494": 0.39,
+   "GSE96804": 1.55,
+   "GSE99339": 0.26
+  },
+  "S100A12": {
+   "GSE104948": 0.11,
+   "GSE104954": 0.12,
+   "GSE108109": -1.43,
+   "GSE116626": -0.1,
+   "GSE121233": -1.59,
+   "GSE129973": -1.36,
+   "GSE200828": -1.38,
+   "GSE30122": -0.25,
+   "GSE66494": 0.55,
+   "GSE96804": -2.33,
+   "GSE99339": -0.17
+  },
+  "HLA-DRB1": {
+   "GSE104948": 0.97,
+   "GSE104954": 1.38,
+   "GSE108109": 0.88,
+   "GSE116626": 1.08,
+   "GSE121233": -2.45,
+   "GSE129973": -1.43,
+   "GSE200828": 1.12,
+   "GSE30122": 0.9,
+   "GSE66494": 0.36,
+   "GSE96804": 0.35,
+   "GSE99339": 1.84
+  }
+ },
+ "ctype": {
+  "GSE104948": "Living donor + tumour nephrectomy",
+  "GSE104954": "Living donor + tumour nephrectomy",
+  "GSE108109": "Living donor",
+  "GSE200828": "Living donor",
+  "GSE116626": "Living donor",
+  "GSE99339": "Tumour nephrectomy",
+  "GSE129973": "Tumour nephrectomy",
+  "GSE96804": "Tumour nephrectomy",
+  "GSE121233": "Tumour nephrectomy",
+  "GSE30122": "Not stated",
+  "GSE66494": "Reference RNA"
+ },
+ "E5_stress_by_series": [
+  {
+   "Series": "GSE104948",
+   "Control source": "Living donor + tumour nephrectomy",
+   "Controls": 0.46,
+   "Cases": -0.19,
+   "AUC of stress score alone": 0.695
+  },
+  {
+   "Series": "GSE104954",
+   "Control source": "Living donor + tumour nephrectomy",
+   "Controls": 0.79,
+   "Cases": -0.43,
+   "AUC of stress score alone": 0.937
+  },
+  {
+   "Series": "GSE108109",
+   "Control source": "Living donor",
+   "Controls": 0.75,
+   "Cases": -0.04,
+   "AUC of stress score alone": 0.852
+  },
+  {
+   "Series": "GSE116626",
+   "Control source": "Living donor",
+   "Controls": 1.36,
+   "Cases": -0.13,
+   "AUC of stress score alone": 0.946
+  },
+  {
+   "Series": "GSE121233",
+   "Control source": "Tumour nephrectomy",
+   "Controls": 0.39,
+   "Cases": -0.39,
+   "AUC of stress score alone": 0.8
+  },
+  {
+   "Series": "GSE129973",
+   "Control source": "Tumour nephrectomy",
+   "Controls": 0.43,
+   "Cases": -0.43,
+   "AUC of stress score alone": 0.825
+  },
+  {
+   "Series": "GSE200828",
+   "Control source": "Living donor",
+   "Controls": 0.83,
+   "Cases": -0.03,
+   "AUC of stress score alone": 0.879
+  },
+  {
+   "Series": "GSE30122",
+   "Control source": "Not stated",
+   "Controls": 0.1,
+   "Cases": -0.25,
+   "AUC of stress score alone": 0.645
+  },
+  {
+   "Series": "GSE66494",
+   "Control source": "Reference RNA",
+   "Controls": 0.7,
+   "Cases": -0.11,
+   "AUC of stress score alone": 0.925
+  },
+  {
+   "Series": "GSE96804",
+   "Control source": "Tumour nephrectomy",
+   "Controls": 0.82,
+   "Cases": -0.4,
+   "AUC of stress score alone": 0.945
+  },
+  {
+   "Series": "GSE99339",
+   "Control source": "Tumour nephrectomy",
+   "Controls": 1.28,
+   "Cases": -0.08,
+   "AUC of stress score alone": 0.938
+  }
+ ],
+ "E5_n_corr": {
+  "|r|>0.3": 222,
+  "|r|>0.4": 51,
+  "|r|>0.5": 18
+ },
+ "E5_top_corr": {
+  "EGR1": 0.81,
+  "FOS": 0.74,
+  "JUNB": 0.71,
+  "ZFP36": 0.68,
+  "ATF3": 0.67,
+  "CCN1": 0.64,
+  "DUSP1": 0.61,
+  "HBEGF": 0.6,
+  "NR4A1": 0.6,
+  "FOSB": 0.59,
+  "EGR2": 0.58,
+  "IER3": 0.55,
+  "TNFRSF12A": 0.54,
+  "JUN": 0.54,
+  "EGR3": 0.54,
+  "RGS2": 0.53,
+  "MAFF": 0.52,
+  "DUSP6": 0.5,
+  "CXCL2": 0.5,
+  "IER2": 0.5,
+  "NR4A2": 0.49,
+  "NR4A3": 0.49,
+  "GDF15": 0.48,
+  "FOSL2": 0.48,
+  "ZYX": 0.47
+ },
+ "E5": [
+  {
+   "Features": "17 immediate-early genes only",
+   "n genes": 17,
+   "AUC": 0.886,
+   "Sens": 0.879,
+   "Spec": 0.453
+  },
+  {
+   "Features": "28 procurement genes only (IEG + fasting + blood)",
+   "n genes": 28,
+   "AUC": 0.921,
+   "Sens": 0.878,
+   "Spec": 0.494
+  },
+  {
+   "Features": "All genes minus 17 immediate-early genes",
+   "n genes": 10405,
+   "AUC": 0.94,
+   "Sens": 0.914,
+   "Spec": 0.576
+  },
+  {
+   "Features": "All genes minus 28 procurement genes",
+   "n genes": 10394,
+   "AUC": 0.935,
+   "Sens": 0.916,
+   "Spec": 0.576
+  },
+  {
+   "Features": "All genes minus 51 stress-co-varying genes (|r| > 0.4)",
+   "n genes": 10371,
+   "AUC": 0.941,
+   "Sens": 0.913,
+   "Spec": 0.576
+  },
+  {
+   "Features": "All genes minus 222 stress-co-varying genes (|r| > 0.3)",
+   "n genes": 10200,
+   "AUC": 0.934,
+   "Sens": 0.906,
+   "Spec": 0.57
+  }
+ ],
+ "E5_RR_r": {
+  "C4BPA": 0.01,
+  "COL13A1": 0.12,
+  "HABP2": 0.09,
+  "CFH": 0.28,
+  "CFI": 0.03
+ },
+ "E6_same": {
+  "perfs": true,
+  "FEAT_IMP_by_AUC": true,
+  "FEAT_IMP_by_F1": true
+ }
+}

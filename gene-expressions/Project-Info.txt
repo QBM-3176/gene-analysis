@@ -1,0 +1,50 @@
+
+======================================================
+
+Animal Models (Public GEO datasets):
+Transcriptomic data from mouse and rat CKD models treated with RAS, SGLT2, MR, or GLP-1 inhibitors to investigate drug effects and tissue-level dynamics of RenoRisk biomarkers
+Example accession numbers: GSE226353, GSE206986, GSE207283, GSE181382
+Human Data:
+Integration of transcriptomic and proteomic data from the C-PROBE cohort using supervised and unsupervised multi-omics approaches
+Example accession number: GSE69438
+
+======================================================
+
+Volcano plots
+Please generate volcano plots for the following comparisons:
+The volcano plots should be generated using the full RNA-seq dataset. If possible, please label the most significantly differentially expressed genes (e.g. based on adjusted p-value and effect size).
+
+Control vs Vehicle
+Vehicle vs each treatment group
+
+Box plots for selected genes
+Please generate box plots for our five RenoRisk genes, comparing:
+Differential expression should be assessed using DESeq2 with the Wald test for the relevant pairwise contrasts. Box plots should be based on DESeq2-normalized, variance-stabilized expression values, and adjusted p-values should be reported for each gene.
+Control vs Vehicle vs Each treatment group
+
+Pathway analysis / Gene Set Enrichment Analysis (GSEA)
+Please perform pathway analysis or GSEA using the list of differentially expressed genes, comparing them against established biological pathways or gene sets. You can use databases such as Gene Ontology (GO), KEGG, or Reactome to identify significantly enriched or over-represented pathways.
+
+======================================================
+
+2. Statistical testing
+Could you please add p‑values to all relevant plots and indicate the statistical test used as well as sample size per each condition.
+Depending on data distribution and sample size, this may be:
+	Kruskal–Wallis (with Dunn’s post‑hoc test + FDR correction)
+	Mann–Whitney / Wilcoxon for pairwise comparisons
+	ANOVA + Tukey if assumptions are met
+Please annotate the plots with the corresponding significance brackets or adjusted p‑values.
+
+3. Additional biomarkers to plot
+Could you also generate plots for the following biomarkers (I selected from the competitor list) in both the animal and human datasets:
+	NGAL
+	KIM‑1
+	suPAR
+	TNFR‑1 and TNFR‑2
+	ApoA4
+	CD5L
+	IGFBP3
+
+======================================================
+
+
