@@ -10,3 +10,9 @@ venv*
 .venv*
 *.gz
 *series_matrix.txt
+*.xlsx
+*.log
+.hermes
+.claude
+.agents
+.aider-desk
